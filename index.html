@@ -4,107 +4,56 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Caneyo Geprek Express | Fried chicken and geprek restaurant</title>
-  <meta name="description" content="Fast-service food landing page for outlet routing, delivery buttons, big orders, and campaign promos. Everything is designed to move visitors from craving to order.">
+  <meta name="description" content="Move hungry ad traffic to fast WhatsApp or delivery-app ordering with branch clarity.">
   <meta property="og:title" content="Caneyo Geprek Express">
-  <meta property="og:description" content="Fast-service food landing page for outlet routing, delivery buttons, big orders, and campaign promos. Everything is designed to move visitors from craving to order.">
+  <meta property="og:description" content="Move hungry ad traffic to fast WhatsApp or delivery-app ordering with branch clarity.">
   <meta property="og:image" content="./assets/hero.svg">
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css">
 </head>
-<body class="theme-fast-food">
-  <header class="site-header">
+<body class="theme-geprek" data-layout="geprek" data-motion-profile="geprek">
+  <header class="site-header geprek-nav">
     <a class="logo-lockup" href="#top" aria-label="Caneyo Geprek Express home">
       <img src="./assets/logo.svg" alt="Logo Caneyo Geprek Express" data-fallback-logo>
       <span class="logo-fallback">CG</span>
       <strong>Caneyo Geprek Express</strong>
     </a>
-    <nav aria-label="Primary"><a href="#signature">Menu</a><a href="#best-seller">Best Seller</a><a href="#order-options">Promo</a><a href="#location">Order</a></nav>
+    <nav aria-label="Primary"><a href="#spice">Spice</a><a href="#combo">Combos</a><a href="#delivery">Delivery</a><a href="#visit">Order</a></nav>
   </header>
-
   <main id="top">
-    <section class="hero" style="--hero-image:url('./assets/hero.svg')">
-      <div class="hero-overlay"></div>
-      <div class="hero-copy">
-        <p class="eyebrow">Geprek next level and quick delivery</p>
-        <h1>A spicy order page built for hungry clicks.</h1>
-        <p>Fast-service food landing page for outlet routing, delivery buttons, big orders, and campaign promos. Everything is designed to move visitors from craving to order.</p>
-        <div class="actions">
-          <a class="button primary" href="https://linktr.ee/CaneyoGeprekExpress" target="_blank" rel="noreferrer">Order Geprek</a>
-          <a class="button ghost" href="https://www.instagram.com/caneyogeprek" target="_blank" rel="noreferrer">Open Instagram</a>
-        </div>
-      </div>
-      <aside class="identity-card">
-        <img src="./assets/logo.svg" alt="" data-fallback-logo>
-        <span class="logo-fallback big">CG</span>
-        <em>E-commerce food promo landing</em>
-        <p>Jatimulyo fast-service route</p>
-        <strong>Fried chicken and geprek restaurant</strong>
-      </aside>
+    <section class="geprek-hero" style="--hero-image:url('./assets/hero.svg')">
+      <div><p class="eyebrow">Geprek next level / mobile order flow</p><h1>Pick the heat. Lock the combo. Send the order.</h1><p>Move hungry ad traffic to fast WhatsApp or delivery-app ordering with branch clarity.</p></div>
+      <aside class="order-phone"><span>Order board</span><article><span>Single Geprek</span><strong>from Rp18k</strong><p>rice and chicken</p></article><article><span>Duo Combo</span><strong>from Rp39k</strong><p>two meals</p></article><article><span>Family Pack</span><strong>from Rp89k</strong><p>group order</p></article></aside>
     </section>
-
-    <section class="visual-strip" aria-label="Caneyo Geprek Express campaign visuals">
-      <figure style="--image:url('./assets/gallery-1.svg')"><figcaption>Signature Menu</figcaption></figure>
-      <figure style="--image:url('./assets/gallery-2.svg')"><figcaption>Best Seller</figcaption></figure>
-      <figure style="--image:url('./assets/gallery-3.svg')"><figcaption>Order Options</figcaption></figure>
+    <section id="spice" class="spice-selector" data-toggle-group>
+      <div><p class="eyebrow">Spicy level selector</p><h2>Make the first tap feel like ordering, not browsing.</h2></div>
+      <button class="is-active" type="button">Level 1</button><button type="button">Level 3</button><button type="button">Level 5</button><button type="button">Big order</button>
     </section>
-
-    <section class="source-insights" aria-label="Caneyo Geprek Express public research">
-      <div class="insight-copy">
-        <p class="eyebrow">Field Notes</p>
-        <h2>Move hungry ad traffic straight to outlet selection, delivery app, big order, or spicy best seller.</h2>
-        <p>Design direction: E-commerce food promo landing.</p>
-        <div class="source-links"><a href="https://linktr.ee/CaneyoGeprekExpress" target="_blank" rel="noreferrer">Caneyo Linktree</a><a href="https://restaurantguru.com/Caneyo-Geprek-Express-Malang" target="_blank" rel="noreferrer">Caneyo RestaurantGuru</a><a href="https://www.carikulinerindonesia.com/cabang/caneyo-geprek-express/" target="_blank" rel="noreferrer">Caneyo branch list</a></div>
-      </div>
-      <div class="insight-grid">
-        <article><span>01</span><p>Public profile uses the line Geprek Next Level and routes visitors to menu, WhatsApp, and delivery apps.</p></article><article><span>02</span><p>RestaurantGuru lists fried chicken, spicy chicken, delivery, attractive prices, and a Google rating of 4.4.</p></article><article><span>03</span><p>Branch sources show multiple Malang outlets, so outlet routing belongs in the landing page.</p></article>
-      </div>
+    <section id="combo" class="combo-grid"><article><span>Single Geprek</span><strong>from Rp18k</strong><p>rice and chicken</p></article><article><span>Duo Combo</span><strong>from Rp39k</strong><p>two meals</p></article><article><span>Family Pack</span><strong>from Rp89k</strong><p>group order</p></article></section>
+    <section id="delivery" class="delivery-router">
+      <div class="chip-wall"><span>Spicy selector</span><span>Delivery app routing</span><span>Branch selector</span><span>Promo banner</span><span>Big order flow</span></div>
+      <ol><li>Choose spicy level</li><li>Select combo</li><li>Pick outlet</li><li>Send order to WhatsApp</li><li>Track through chosen channel</li></ol>
     </section>
-
-    <section id="signature" class="brand-section section-1">
-      <div class="section-copy">
-        <p class="eyebrow">Signature Menu</p>
-        <h2>Spicy chicken offers that look fast and appetizing.</h2>
+    <section class="proof-grid"><article><span>01</span><p>RestaurantGuru lists fried chicken, spicy chicken, delivery, attractive prices, and 4.4 Google rating.</p></article><article><span>02</span><p>Public profile routes to menu, WhatsApp, and delivery apps.</p></article><article><span>03</span><p>Branch source supports multi-outlet routing.</p></article></section>
+    <section id="visit" class="visit-panel">
+    <div>
+      <p class="eyebrow">Visit / Contact</p>
+      <h2>Jl. Bunga Camalia No.1, Jatimulyo, Malang</h2>
+      <p>Daily 10:00-22:00, delivery by outlet availability</p>
+      <p>0817-0111-440</p>
+      <div class="actions">
+        <a class="button primary" href="https://linktr.ee/CaneyoGeprekExpress" target="_blank" rel="noreferrer">Open Official Profile</a>
+        <a class="button ghost" href="https://www.instagram.com/caneyogeprek" target="_blank" rel="noreferrer">Instagram</a>
       </div>
-      <div class="section-panel">
-        <article><span>CG</span><strong>Geprek signature</strong></article><article><span>CG</span><strong>Sauce levels</strong></article><article><span>CG</span><strong>Rice bowl options</strong></article>
-      </div>
-    </section><section id="best-seller" class="brand-section section-2">
-      <div class="section-copy">
-        <p class="eyebrow">Best Seller</p>
-        <h2>Turn best sellers into ad-ready product blocks.</h2>
-      </div>
-      <div class="section-panel">
-        <article><span>CG</span><strong>Single meal</strong></article><article><span>CG</span><strong>Duo bundle</strong></article><article><span>CG</span><strong>Family pack</strong></article>
-      </div>
-    </section><section id="order-options" class="brand-section section-3">
-      <div class="section-copy">
-        <p class="eyebrow">Order Options</p>
-        <h2>WhatsApp and delivery channels are treated as primary conversion buttons.</h2>
-      </div>
-      <div class="section-panel">
-        <article><span>CG</span><strong>Delivery apps</strong></article><article><span>CG</span><strong>Big order</strong></article><article><span>CG</span><strong>Outlet pickup</strong></article>
-      </div>
-    </section>
-
-    <section id="location" class="location">
-      <div>
-        <p class="eyebrow">Order</p>
-        <h2>Jl. Bunga Camalia No.1, Jatimulyo, Malang</h2>
-        <p>0817-0111-440</p>
-        <div class="actions">
-          <a class="button primary" href="https://linktr.ee/CaneyoGeprekExpress" target="_blank" rel="noreferrer">Order Geprek</a>
-          <a class="button ghost" href="https://linktr.ee/CaneyoGeprekExpress" target="_blank" rel="noreferrer">Public profile</a>
-        </div>
-      </div>
-      <iframe title="Caneyo Geprek Express map" src="https://www.google.com/maps?q=Jl.%20Bunga%20Camalia%20No.1%2C%20Jatimulyo%2C%20Malang&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
+    </div>
+    <iframe title="Caneyo Geprek Express map" src="https://www.google.com/maps?q=Jl.%20Bunga%20Camalia%20No.1%2C%20Jatimulyo%2C%20Malang&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+    <div class="sticky-order"><span>Hungry traffic should never scroll for the CTA.</span><a href="https://linktr.ee/CaneyoGeprekExpress" target="_blank" rel="noreferrer">Order Now</a></div>
   </main>
-
   <footer>
-    <span>Caneyo Geprek Express website concept, tailored for Fried chicken and geprek restaurant.</span>
+    <span>It feels like a quick-order surface made for ads.</span>
     <a href="https://wa.me/6289506753131?text=Halo%20Albert,%20saya%20mau%20dibuatkan%20website%20brand%20seperti%20demo%20ini." target="_blank" rel="noreferrer">Website by Albert Saputra</a>
   </footer>
-
   <script src="./script.js"></script>
 </body>
 </html>

@@ -1,9 +1,9 @@
 export const metadata = {
   title: "Caneyo Geprek Express | Fried chicken and geprek restaurant",
-  description: "Fast-service food landing page for outlet routing, delivery buttons, big orders, and campaign promos. Everything is designed to move visitors from craving to order.",
+  description: "Move hungry ad traffic to fast WhatsApp or delivery-app ordering with branch clarity.",
   openGraph: {
     title: "Caneyo Geprek Express",
-    description: "Fast-service food landing page for outlet routing, delivery buttons, big orders, and campaign promos. Everything is designed to move visitors from craving to order.",
+    description: "Move hungry ad traffic to fast WhatsApp or delivery-app ordering with branch clarity.",
     images: ["./assets/hero.svg"],
   },
 };

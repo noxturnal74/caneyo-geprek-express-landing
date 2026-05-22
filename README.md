@@ -1,36 +1,34 @@
 # Caneyo Geprek Express
 
-Standalone landing page for Fried chicken and geprek restaurant.
+Production-grade single-page concept for Fried chicken and geprek restaurant.
 
-## Design concept
+## Visual philosophy
 
-E-commerce food promo landing
+Mobile-first ordering interface with spicy-level selector, deal tiles, and delivery-channel routing.
 
-## Conversion goal
+## Business logic
 
-Move hungry ad traffic straight to outlet selection, delivery app, big order, or spicy best seller.
+Move hungry ad traffic to fast WhatsApp or delivery-app ordering with branch clarity.
 
-## Deployment notes
+## Storytelling structure
 
-- Static site entry: `index.html`
-- Local assets: `assets/`
-- Asset paths use relative `./assets/...`
-- `vercel.json` keeps `outputDirectory` at `.`
-- Logo fallback is handled in `script.js`
-- Hero fallback is a CSS gradient behind `./assets/hero.svg`
-- Parallax uses `requestAnimationFrame` in `script.js`
+Visitor picks spicy level, chooses combo, selects outlet/delivery route, then orders.
 
-## Brand-specific sections
+## Motion system
 
-- Signature Menu: Spicy chicken offers that look fast and appetizing.
-- Best Seller: Turn best sellers into ad-ready product blocks.
-- Order Options: WhatsApp and delivery channels are treated as primary conversion buttons.
+Punchy tap feedback, active spice states, sticky order rail.
 
-## Public research injected
+## Conversion strategy
 
-- Public profile uses the line Geprek Next Level and routes visitors to menu, WhatsApp, and delivery apps.
-- RestaurantGuru lists fried chicken, spicy chicken, delivery, attractive prices, and a Google rating of 4.4.
-- Branch sources show multiple Malang outlets, so outlet routing belongs in the landing page.
+Primary route is order now; secondary route is big order reservation.
+
+## Operational content included
+
+- Hours: Daily 10:00-22:00, delivery by outlet availability
+- Contact: 0817-0111-440
+- Pricing/offer cards: Single Geprek from Rp18k, Duo Combo from Rp39k, Family Pack from Rp89k
+- Workflow: Choose spicy level -> Select combo -> Pick outlet -> Send order to WhatsApp -> Track through chosen channel
+- Policies: Delivery follows app availability. / Big orders need admin confirmation. / Promo may differ by outlet.
 
 ## Source links
 
