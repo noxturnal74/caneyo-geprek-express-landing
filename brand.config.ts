@@ -9,6 +9,27 @@ export const brandConfig = {
   "contact": "0817-0111-440",
   "publicLink": "https://linktr.ee/CaneyoGeprekExpress",
   "instagram": "https://www.instagram.com/caneyogeprek",
+  "designConcept": "E-commerce food promo landing",
+  "conversionGoal": "Move hungry ad traffic straight to outlet selection, delivery app, big order, or spicy best seller.",
+  "proofPoints": [
+    "Public profile uses the line Geprek Next Level and routes visitors to menu, WhatsApp, and delivery apps.",
+    "RestaurantGuru lists fried chicken, spicy chicken, delivery, attractive prices, and a Google rating of 4.4.",
+    "Branch sources show multiple Malang outlets, so outlet routing belongs in the landing page."
+  ],
+  "sourceLinks": [
+    {
+      "label": "Caneyo Linktree",
+      "url": "https://linktr.ee/CaneyoGeprekExpress"
+    },
+    {
+      "label": "Caneyo RestaurantGuru",
+      "url": "https://restaurantguru.com/Caneyo-Geprek-Express-Malang"
+    },
+    {
+      "label": "Caneyo branch list",
+      "url": "https://www.carikulinerindonesia.com/cabang/caneyo-geprek-express/"
+    }
+  ],
   "theme": {
     "bg": "#220a04",
     "accent": "#ff4d00",
